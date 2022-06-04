@@ -36,6 +36,11 @@ $ npm run cli:args
 
 ### Hash (src/hash)
 
+<br/>
+
+```
+$ npm run hash:calcHash
+```
 
 <br/>
 
