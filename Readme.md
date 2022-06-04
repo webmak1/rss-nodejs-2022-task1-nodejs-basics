@@ -1,9 +1,10 @@
-# Assignment: Node.js basics
-
+# [Assignment: Node.js basics](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
 
 <br/>
 
 ### File system (src/fs)
+
+<br/>
 
 ```
 $ npm run fs:create
@@ -13,6 +14,32 @@ $ npm run fs:delete
 $ npm run fs:list
 $ npm run fs:read
 ```
+
+
+<br/>
+
+### Command line interface(src/cli)
+
+<br/>
+
+```
+$ npm run cli:env
+$ npm run cli:args
+```
+
+<br/>
+
+### Modules(src/modules)
+
+
+<br/>
+
+### Hash (src/hash)
+
+
+<br/>
+
+### Zlib (src/zip)
 
 <br/>
 <hr/>
