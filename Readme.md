@@ -47,6 +47,13 @@ $ npm run hash:calcHash
 ### Zlib (src/zip)
 
 <br/>
+
+```
+$ npm run zip:compress
+$ npm run zip:decompress
+```
+
+<br/>
 <hr/>
 <br/>
 

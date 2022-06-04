@@ -12,7 +12,9 @@
     "fs:read": "node ./src/fs/read.js",
     "cli:env": "node ./src/cli/env.js",
     "cli:args": "node ./src/cli/args.js --propName value --prop2Name value2",
-    "hash:calcHash": "node ./src/hash/calcHash.js"
+    "hash:calcHash": "node ./src/hash/calcHash.js",
+    "zip:compress": "node ./src/zip/compress.js",
+    "zip:decompress": "node ./src/zip/decompress.js"
   },
   "repository": {
     "type": "git",
