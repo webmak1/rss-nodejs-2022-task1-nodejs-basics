@@ -1,5 +1,21 @@
 # [Assignment: Node.js basics](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/nodejs-basics/assignment.md)
 
+
+<br/>
+
+```
+$ cat /etc/os-release | grep 'VERSION='
+VERSION="20.04.4 LTS (Focal Fossa)"
+```
+
+<br/>
+
+```
+$ node -v
+v16.14.0
+```
+
+
 <br/>
 
 ### File system (src/fs)
@@ -14,7 +30,6 @@ $ npm run fs:delete
 $ npm run fs:list
 $ npm run fs:read
 ```
-
 
 <br/>
 
@@ -78,6 +93,16 @@ Request accepted
 
 ```
 $ npm run hash:calcHash
+```
+
+### Streams (src/streams)
+
+<br/>
+
+```
+$ npm run streams:read
+$ npm run streams:write
+$ npm run streams:transform
 ```
 
 <br/>
