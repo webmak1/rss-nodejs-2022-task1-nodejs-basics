@@ -31,6 +31,44 @@ $ npm run cli:args
 
 ### Modules(src/modules)
 
+<br/>
+
+```
+$ npm run modules:cjsToEsm
+```
+
+<br/>
+
+**response:**
+
+```
+Hello from c.js!
+Release 5.13.0-44-generic
+Version #49~20.04.1-Ubuntu SMP Wed May 18 18:44:28 UTC 2022
+Path segment separator is "/"
+Path to current file is /home/marley/projects/dev/rss/rss-nodejs-2022-task1-nodejs-basics/src/modules/cjsToEsm.mjs
+Path to current directory is /home/marley/projects/dev/rss/rss-nodejs-2022-task1-nodejs-basics/src/modules
+unknownObject is
+{ a: 1, b: 2, c: 3 }
+Server running
+Request accepted
+```
+
+<br/>
+
+```
+$ curl localhost:8000
+```
+
+<br/>
+
+**response:**
+
+<br/>
+
+```
+Request accepted
+```
 
 <br/>
 

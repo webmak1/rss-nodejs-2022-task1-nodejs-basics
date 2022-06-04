@@ -14,7 +14,8 @@
     "cli:args": "node ./src/cli/args.js --propName value --prop2Name value2",
     "hash:calcHash": "node ./src/hash/calcHash.js",
     "zip:compress": "node ./src/zip/compress.js",
-    "zip:decompress": "node ./src/zip/decompress.js"
+    "zip:decompress": "node ./src/zip/decompress.js",
+    "modules:cjsToEsm": "node ./src/modules/cjsToEsm.mjs"
   },
   "repository": {
     "type": "git",
