@@ -118,6 +118,16 @@ $ npm run zip:decompress
 
 <br/>
 
+### Worker Threads (src/wt)
+
+<br/>
+
+```
+$ npm run wt:performCalculations
+```
+
+<br/>
+
 ### Child Processes (src/cp)
 
 <br/>
@@ -125,6 +135,15 @@ $ npm run zip:decompress
 ```
 $ npm run cp:spawnChildProcess
 ```
+
+<br/>
+
+![Application](/img/pic1.png?raw=true)
+
+
+<br/>
+
+![Application](/img/pic2.png?raw=true)
 
 <br/>
 <hr/>
