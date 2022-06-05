@@ -7,13 +7,12 @@ export const write = async () => {
     const writeStream = fs.createWriteStream(fileToWrite, {flags: 'a',});
 
     stdin.addListener("data", function(d) {
+      console.log("you entered: [" + 
+          d.toString().trim() + "]");
 
-    console.log("you entered: [" + 
-        d.toString().trim() + "]");
-
-    writeStream.write(d.toString().trim() + '\n');
-    writeStream.end();
-    process.exit(0);
+      writeStream.write(d.toString().trim() + '\n');
+      writeStream.end();
+      process.exit(0);
   });
 };
 

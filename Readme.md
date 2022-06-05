@@ -117,6 +117,16 @@ $ npm run zip:decompress
 ```
 
 <br/>
+
+### Child Processes (src/cp)
+
+<br/>
+
+```
+$ npm run cp:spawnChildProcess
+```
+
+<br/>
 <hr/>
 <br/>
 
@@ -182,6 +192,9 @@ You should implement several functions in dedicated files
 - `compress.js` - implement function that compresses file `fileToCompress.txt` to `archive.gz` using `zlib` and Streams API
 - `decompress.js` - implement function that decompresses `archive.gz` back to the `fileToCompress.txt` with same content as before compression using `zlib` and Streams API
 
+<br/>
+
+## Advanced Scope
 ### Worker Threads (src/wt)
 
 You should implement several functions in dedicated files

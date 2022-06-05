@@ -18,7 +18,8 @@
     "streams:transform": "node ./src/streams/transform.js",
     "zip:compress": "node ./src/zip/compress.js",
     "zip:decompress": "node ./src/zip/decompress.js",
-    "modules:cjsToEsm": "node ./src/modules/cjsToEsm.mjs"
+    "modules:cjsToEsm": "node ./src/modules/cjsToEsm.mjs",
+    "cp:spawnChildProcess": "node ./src/cp/cp.js"
   },
   "repository": {
     "type": "git",
